@@ -10,11 +10,11 @@ browser-compatible upstream host are stored with Git LFS; manifests remain
 regular Git files for review. Full-resolution OME-Zarr and IDC datasets stream
 directly from their public upstream S3 buckets.
 
-Browser demos load these files directly from GitHub's media endpoint, which
+Browser demos load these files directly from GitHub's raw-content endpoint, which
 supports cross-origin requests and HTTP byte ranges:
 
 ```text
-https://media.githubusercontent.com/media/niivue/niivue-demo-images/main/streaming/
+https://raw.githubusercontent.com/niivue/niivue-demo-images-lfs/main/streaming/
 ```
 
 Keeping upstream-hosted datasets at their canonical source avoids duplicating
