@@ -2,6 +2,24 @@
 
 These are sample NIfTI images designed for evaluating viewing tools like [NiiVue](https://github.com/niivue/niivue). These are intentionally low-resolution images to reduce file size and ensure compatibility with old computers and mobile devices. Larger but higher quality images are available by downloading the [Extra Sample Images](https://www.nitrc.org/projects/mricrogl). Further examples are available in the [VolumeRenderingData](https://github.com/neurolabusc/VolumeRenderingData) repository.
 
+## Streaming demo data
+
+The `streaming/` directory contains browser-streamable fixtures and manifests
+used by the NiiVue examples. Large DICOM and SVS objects that lack a
+browser-compatible upstream host are stored with Git LFS; manifests remain
+regular Git files for review. Full-resolution OME-Zarr and IDC datasets stream
+directly from their public upstream S3 buckets.
+
+Browser demos load these files directly from GitHub's media endpoint, which
+supports cross-origin requests and HTTP byte ranges:
+
+```text
+https://media.githubusercontent.com/media/niivue/niivue-demo-images/main/streaming/
+```
+
+Keeping upstream-hosted datasets at their canonical source avoids duplicating
+multi-gigabyte payloads while preserving every pyramid level.
+
 ## Licenses
 
  - `2UXO-ribbon-rainbow-vis_NIH3D` is from [NIH3D](https://3d.nih.gov/entries/22673) and described in [PMID:17466326](https://pubmed.ncbi.nlm.nih.gov/17466326/).

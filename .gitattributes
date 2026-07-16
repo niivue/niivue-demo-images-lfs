@@ -1,0 +1,2 @@
+streaming/**/*.dcm filter=lfs diff=lfs merge=lfs -text
+streaming/**/*.svs filter=lfs diff=lfs merge=lfs -text
