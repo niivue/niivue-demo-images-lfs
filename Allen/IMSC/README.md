@@ -10,7 +10,8 @@ and as a segmentation, packed three channels per PNG.
 
 The files are byte-for-byte copies of `https://imsc.allencell.org/assets/`,
 which sends no CORS header, so browser demos cannot load them from the source.
-The PNGs are stored with Git LFS.
+The sidecars and PNGs are stored with Git LFS, so both resolve from the same
+media URL (GitHub's raw endpoint would return LFS pointers for the PNGs).
 
 ## License
 
