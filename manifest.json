@@ -1,6 +1,8 @@
 [
   "CT_AVM.nii.gz",
   "CT_Abdo.nii.gz",
+  "CT_AbdoPelvis.nii.gz",
+  "CT_AbdoPelvis_labels.nii.gz",
   "CT_Electrodes.nii.gz",
   "CT_Pancreas.nii.gz",
   "CT_Philips.nii.gz",

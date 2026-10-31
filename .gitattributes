@@ -7,3 +7,5 @@ CT_WholeBody.nii.gz filter=lfs diff=lfs merge=lfs -text
 CT_WholeBody_labels.nii.gz filter=lfs diff=lfs merge=lfs -text
 MR_T1_brain.nii.gz filter=lfs diff=lfs merge=lfs -text
 MR_T1_brain_siam.nii.gz filter=lfs diff=lfs merge=lfs -text
+CT_AbdoPelvis.nii.gz filter=lfs diff=lfs merge=lfs -text
+CT_AbdoPelvis_labels.nii.gz filter=lfs diff=lfs merge=lfs -text
