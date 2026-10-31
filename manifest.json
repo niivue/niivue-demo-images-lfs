@@ -5,6 +5,7 @@
   "CT_Pancreas.nii.gz",
   "CT_Philips.nii.gz",
   "CT_WholeBody.nii.gz",
+  "CT_WholeBody_labels.nii.gz",
   "CT_pitch.nii.gz",
   "Iguana.nii.gz",
   "M2208_T2w.nii.gz",
