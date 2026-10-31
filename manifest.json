@@ -11,6 +11,8 @@
   "M2208_T2w.nii.gz",
   "M2208_dog.nii.gz",
   "MR_Gd.nii.gz",
+  "MR_T1_brain.nii.gz",
+  "MR_T1_brain_siam.nii.gz",
   "chris_MRA.nii.gz",
   "chris_PD.nii.gz",
   "chris_t1.nii.gz",
