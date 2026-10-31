@@ -1,6 +1,6 @@
 ## About
 
-These are sample NIfTI images designed for evaluating viewing tools like [NiiVue](https://github.com/niivue/niivue). These are intentionally low-resolution images to reduce file size and ensure compatibility with old computers and mobile devices. Larger but higher quality images are available by downloading the [Extra Sample Images](https://www.nitrc.org/projects/mricrogl). Further examples are available in the [VolumeRenderingData](https://github.com/neurolabusc/VolumeRenderingData) repository.
+These are sample NIfTI images designed for evaluating viewing tools like [NiiVue](https://github.com/niivue/niivue). Most are intentionally low-resolution images to reduce file size and ensure compatibility with old computers and mobile devices; `CT_WholeBody` and `CT_Pancreas` are larger, higher-resolution CT scans stored with Git LFS (load them from the media endpoint below). Larger but higher quality images are available by downloading the [Extra Sample Images](https://www.nitrc.org/projects/mricrogl). Further examples are available in the [VolumeRenderingData](https://github.com/neurolabusc/VolumeRenderingData) repository.
 
 ## Streaming demo data
 
@@ -33,7 +33,9 @@ multi-gigabyte payloads while preserving every pyramid level.
  - `Allen/IMSC` holds five Integrated Mitotic Stem Cell atlases from the [Allen Institute for Cell Science](https://www.allencell.org). They are **not** BSD: noncommercial use with citation under the [Allen Cell Terms of Use](https://www.allencell.org/terms-of-use.html); see `Allen/IMSC/LICENSE`.
  - `CT_AVM` is [from Github](https://github.com/IbisNeuronav/PRISMDatabase) as an example for [IBIS](https://pubmed.ncbi.nlm.nih.gov/27581336/).
  - `CT_Electrodes` is from the [Seg3DData ](https://github.com/CIBC-Internal/Seg3DData) repository. It is distributed using the [MIT license](https://opensource.org/licenses/MIT) from the Scientific Computing and Imaging Institute, University of Utah (2015).
+ - `CT_WholeBody` is subject s1749 (312x312x607, 1.5 mm isotropic) of the [TotalSegmentator dataset](https://doi.org/10.5281/zenodo.6802613) (Wasserthal et al. 2023, Radiology: Artificial Intelligence), distributed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
  - `CT_Philips` is courtesy of Philips Medical and described [here](https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#Computed_Tomography_.28CT.2C_CAT.29).
+ - `CT_Pancreas` is a contrast-enhanced abdominal CT (512x512x240, 0.86x0.86x1 mm) from the TCIA [Pancreas-CT](https://doi.org/10.7937/K9/TCIA.2016.tNB1kqBU) collection (Roth et al. 2016), distributed under the [CC BY 3.0 license](https://creativecommons.org/licenses/by/3.0/).
  - `CT_pitch` is courtesy of Paul Morgan. The acquisition is rotated with respect to the scanner bore, but does not exhibit shear (gantry tilt).
  - `T1_ds000031` refers to ds000031_sub-01_ses-006_run-001_T1w comes from the [pydeface](https://github.com/poldracklab/pydeface) repository (MIT license)
  - `FLAIR2D` is from Chris Rorden and is designed to illustrate anisotopic images.
